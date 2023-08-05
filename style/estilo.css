@@ -1,0 +1,15 @@
+.ej:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+#logoDevf {
+    background-color: black;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+}

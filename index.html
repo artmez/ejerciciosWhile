@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 While</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style/estilo.css">
+        <script defer src="./code/code.js"></script>
+</head>
+
+<body class="position-relative">
+
+
+    <nav class="container-fluid" style="background-color: #292929">
+        <div class="row">
+            <div class="col-9">
+                <div class="d-flex m-2 align-items-center">
+                    <div class="pe-2">
+                        <img src="https://ca.slack-edge.com/TE1NJDVGU-U0510R5JK9N-ff91fb654fe7-512" alt="Logo"
+                            width="50" class="rounded">
+                    </div>
+                    <div>
+                        <img src="./img/artmezlogo.png" alt="Logo" width="70" class="rounded">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 m-auto">
+                <div class="d-flex  justify-content-end">
+                    <div class="pe-2">
+                        <a href="https://www.linkedin.com/in/arturomeza/">
+                            <img src="./img/logoLinkedin.png" alt="Logo" width="30" class="rounded">
+                        </a>
+                    </div>
+                    <div class="pe-2">
+                        <a href="mailto:arturomezaservin@icloud.com">
+                            <img src="./img/logoEmail.png" alt="Logo" width="30" class="rounded">
+                        </a>
+                    </div>
+                    <div class="pe-2">
+                        <a href="https://github.com/artmez">
+                            <img src="./img/logoGithub.png" alt="Logo" width="30" class="rounded">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-md mt-5 text-center">
+        <div class="row">
+            <div class="col  text-wrap">
+                <h1>Ejercicios <img id="logoDevf" src="https://campus.devf.la/static/media/logo-devf-white.0e9942b3.svg" alt=""> Estructura WHILE</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col border bg-primary-subtle shadow p-3 m-3 rounded-2 ej" onclick="ejercicio1()">
+                <p class="fw-bold fs-5">Ejercicio 1</p>
+                <p>Crea un programa que pregunte al usuario un número. Mostrar los números que son múltiplos de 5 desde 1 hasta el número introducido por el usuario.</p>
+            </div>
+            <div class="col border bg-success-subtle shadow p-3 m-3 rounded-2 ej" onclick="ejercicio2()">
+                <p class="fw-bold fs-5">Ejercicio 2</p>
+                <p>Crea un programa que solicite al usuario 2 números entre 1 y 50. Posteriormente mostrar en consola los números del 1 hasta el 50, pero añadir el mensaje “¡Lotería!” solo al mostrar los números indicados por el usuario.</p>
+            </div>
+            <div class="col border bg-warning-subtle shadow p-3 m-3 rounded-2 ej" onclick="ejercicio3()">
+                <p class="fw-bold fs-5">Ejercicio 3</p>
+                <p>Crea un programa que solicite al usuario varios números, los cuales serán almacenados en un arreglo. Para terminar de capturar, el usuario debe ingresar el número 0. Finalmente mostrar la lista de números capturados en pantalla o en la consola.</p>
+            </div>
+            <div class="col border bg-info-subtle shadow p-3 m-3 rounded-2 ej" onclick="ejercicio4()">
+                <p class="fw-bold fs-5">Ejercicio 4</p>
+                <p>Crea un programa que solicite al usuario letras o palabras, si es así guardar el resultado. Para terminar de capturar el usuario no debe escribir valor alguno. Al terminar de capturar, mostrar en pantalla la concatenación de todas las palabras capturadas.</p>
+            </div>
+            <div class="col border bg-dark-subtle shadow p-3 m-3 rounded-2 ej" onclick="ejercicio5()">
+                <p class="fw-bold fs-5">Ejercicio 5</p>
+                <p>Crea un programa que solicite al usuario un día de la semana. El programa mostrará un mensaje para cada día de la semana por medio de un alert. Y seguirá pidiendo al usuario introducir otro día. En caso de que el día introducido sea domingo mostrar al usuario el mensaje “Ve a descansar”.</p>
+            </div>
+            <div class="row">
+                <div class="col rounded">
+                    <p id="miTitulo" class="fw-semibold fs-5 text-decoration-underline text-primary"></p>
+                    <p id="miTexto"></p>
+                    <input id="miEntrada" type="text" class="rounded" placeholder="">
+                    <input id="miEntrada2" type="text" class="rounded" placeholder="">
+                    <button id="miBoton">Enviar</button>
+                    <br> <br>
+                    <textarea name="ventana" id="salida" cols="50" rows="4"></textarea>
+                </div>
+            </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
